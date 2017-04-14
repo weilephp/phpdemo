@@ -1,0 +1,30 @@
+<div id="header">
+  <div class="layout">
+    
+    <div id="nav">
+      <div class="nav">
+        <ul>
+          <li><a href="__APP__" <if condition="$flag">class="header foucs"</if>>
+                <p>网站首页</p>
+                <p class="en">Home</p>
+              </a>
+          </li>
+            <volist name="cateres" id="vo">
+                 <li class="mnav"><a href="__MODULE__/<if condition='$vo[cate_type] eq 1'>list<elseif condition='$vo[cate_type] eq 0'/>page</if>/index/cate_id/{$vo.cate_id}" ><p>{$vo.cate_name}</p><p class='en'>{$vo.cate_ename}</p></a>
+                 <ul class="smenu">
+                  <volist name=":getsub($vo['cate_id'])" id="vo">
+                    <li>
+                     <a href="__MODULE__/<if condition='$vo[cate_type] eq 1'>list<elseif condition='$vo[cate_type] eq 0'/>page</if>/index/cate_id/{$vo.cate_id}">{$vo.cate_name}</a>
+                    </li>
+                  </volist>
+                </ul>
+                </li>
+            </volist>
+        </ul>
+      </div>
+    </div>
+    <div class="logo">
+      <a href="/"></a>
+    </div>
+  </div>
+</div>

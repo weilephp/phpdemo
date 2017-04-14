@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<base target="_self" />
+<meta charset="UTF-8">
+<title>创宜生物</title>
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/style/style.css" />
+<script type="text/javascript" src="__PUBLIC__/style/jquery-1.8.0.min.js"></script>
+</head>
+<body>
+<include file="Common/header"/>
+
+<div id="full-screen-slider-sec">
+	<div class="layout">
+      <div class="page-title">
+       {$catetop.cate_name}
+      </div>
+    </div> 
+</div>
+<div class="main">
+   <div class="layout cnt2">
+     <div class="left">
+        <ul>
+         <volist name="subs" id="vo">
+          <li><a href="__MODULE__/<if condition='$vo[cate_type] eq 1'>list<elseif condition='$vo[cate_type] eq 0'/>page</if>/index/cate_id/{$vo.cate_id}" <if condition="$vo['cate_id'] eq $cateself['cate_id']">class="foucs"</if>>{$vo.cate_name}</a></li>
+         </volist>
+         
+         
+        </ul>
+     </div>
+     <div class="right">
+        <h1>
+           <div class="page">
+             <a href='__APP__'>网站首页</a> > 
+             <volist name="data" id="vo">
+             <a href="__MODULE__/<if condition='$vo[cate_type] eq 1'>list<elseif condition='$vo[cate_type] eq 0'/>page</if>/index/cate_id/{$vo.cate_id}">{$vo.cate_name}</a><if condition="$i != count($data)"> > </if>
+             </volist>
+           </div>
+           {$cateself.cate_name}
+        </h1>
+        <div class="cnt-in">
+         <div class="news-list-wimg">
+           <ul>
+             <li>
+               <volist name="articles" id="vo">
+                <h3> <a href="__MODULE__/article/index/ar_id/{$vo.ar_id}">{$vo.ar_title}</a></h3>
+                <p>
+                <if condition="$vo['ar_pic'] neq ''">
+                <img src="__ROOT__/{$vo.ar_pic}" width="120" height="90" style="float:left; margin-right:15px;">
+                <else/>
+                暂无缩略图
+                </if>
+                {$vo.ar_content|htmlspecialchars_decode|mb_substr=0,500,'utf-8'}
+                <span class="list-date">
+                {$vo.ar_time|date='Y-m-d',###}
+                </span></p>
+                
+              </li>
+              </volist>
+
+
+             </ul>
+         </div>
+          
+            <div class="pages">
+              
+            </div>
+        </div>
+     </div>
+     <div class="clr"></div>
+   </div>
+</div>
+<include file="Common/footer"/>
+</body>
+</html>

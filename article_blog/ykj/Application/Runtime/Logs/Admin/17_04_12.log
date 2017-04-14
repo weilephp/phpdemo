@@ -1,0 +1,780 @@
+[ 2017-04-12T20:12:20+08:00 ] ::1 /ykj/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-12T20:12:23+08:00 ] ::1 /ykj/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-12T20:12:24+08:00 ] ::1 /ykj/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-04-12T20:12:32+08:00 ] ::1 /ykj/index.php/Admin/Login/verify/0.22123907413333654
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T20:12:37+08:00 ] ::1 /ykj/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ykj_admin` [ RunTime:0.0970s ]
+NOTIC: [8] Undefined index: validate F:\AppServ\www\ykj\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\AppServ\www\ykj\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `ykj_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T20:12:38+08:00 ] ::1 /ykj/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T20:12:41+08:00 ] ::1 /ykj/index.php/Admin/Link/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ykj_link` [ RunTime:0.0350s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ykj_link` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ykj_link` ORDER BY id LIMIT 0,4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\65e4f6df08c62e8a208c27167d615170.php 第 115 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\65e4f6df08c62e8a208c27167d615170.php 第 115 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\65e4f6df08c62e8a208c27167d615170.php 第 115 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\65e4f6df08c62e8a208c27167d615170.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-12T20:13:07+08:00 ] ::1 /ykj/index.php/Admin/Article/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ykj_article` [ RunTime:0.0370s ]
+SQL: SHOW COLUMNS FROM `ykj_cate` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ykj_article Article LEFT JOIN ykj_cate Cate ON Article.cateid=Cate.id LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT Article.id AS id,Article.title AS title,Article.pic AS pic,Article.descr AS descr,Cate.catename AS catename FROM ykj_article Article LEFT JOIN ykj_cate Cate ON Article.cateid=Cate.id ORDER BY Article.id ASC LIMIT 0,6   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 116 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 116 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 116 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 116 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 116 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-12T20:13:16+08:00 ] ::1 /ykj/index.php/Admin/Article/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `ykj_article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ykj_cate` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ykj_article Article LEFT JOIN ykj_cate Cate ON Article.cateid=Cate.id LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT Article.id AS id,Article.title AS title,Article.pic AS pic,Article.descr AS descr,Cate.catename AS catename FROM ykj_article Article LEFT JOIN ykj_cate Cate ON Article.cateid=Cate.id ORDER BY Article.id ASC LIMIT 0,6   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 116 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 116 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 116 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 116 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 116 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T20:13:31+08:00 ] ::1 /ykj/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T20:13:32+08:00 ] ::1 /ykj/index.php/Admin/Article/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ykj_article` [ RunTime:0.0480s ]
+SQL: SHOW COLUMNS FROM `ykj_cate` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ykj_article Article LEFT JOIN ykj_cate Cate ON Article.cateid=Cate.id LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT Article.id AS id,Article.title AS title,Article.pic AS pic,Article.descr AS descr,Cate.catename AS catename FROM ykj_article Article LEFT JOIN ykj_cate Cate ON Article.cateid=Cate.id ORDER BY Article.id ASC LIMIT 0,6   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 116 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 116 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 116 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 116 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 116 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-12T20:13:58+08:00 ] ::1 /ykj/index.php/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ykj_article` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ykj_cate` [ RunTime:0.0020s ]
+SQL: SELECT `catename`,`id` FROM `ykj_cate`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-12T20:14:03+08:00 ] ::1 /ykj/index.php/Admin/Link/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ykj_link` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ykj_link` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ykj_link` ORDER BY id LIMIT 0,4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\65e4f6df08c62e8a208c27167d615170.php 第 115 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\65e4f6df08c62e8a208c27167d615170.php 第 115 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\65e4f6df08c62e8a208c27167d615170.php 第 115 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\65e4f6df08c62e8a208c27167d615170.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T20:14:16+08:00 ] ::1 /ykj/index.php/Admin/Link/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ykj_link` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ykj_link` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ykj_link` ORDER BY id LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\65e4f6df08c62e8a208c27167d615170.php 第 115 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\65e4f6df08c62e8a208c27167d615170.php 第 115 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\65e4f6df08c62e8a208c27167d615170.php 第 115 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\65e4f6df08c62e8a208c27167d615170.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T20:14:21+08:00 ] ::1 /ykj/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-12T20:14:23+08:00 ] ::1 /ykj/index.php/Admin/Cate/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ykj_cate` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `ykj_cate` ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T20:14:32+08:00 ] ::1 /ykj/index.php/Admin/Cate/edi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ykj_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ykj_cate` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0270s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' F:\AppServ\www\ykj\Application\Admin\Controller\CateController.class.php 第 47 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-12T20:14:46+08:00 ] ::1 /ykj/index.php/Admin/Cate/edi/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ykj_cate` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ykj_cate` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' F:\AppServ\www\ykj\Application\Admin\Controller\CateController.class.php 第 47 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T20:14:51+08:00 ] ::1 /ykj/index.php/Admin/Cate/edi/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ykj_cate` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `ykj_cate` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' F:\AppServ\www\ykj\Application\Admin\Controller\CateController.class.php 第 47 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-04-12T20:14:58+08:00 ] ::1 /ykj/index.php/Admin/Cate/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ykj_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ykj_cate` ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-04-12T21:03:03+08:00 ] ::1 /ykj/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T21:03:07+08:00 ] ::1 /ykj/index.php/Admin/Cate/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ykj_cate` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `ykj_cate` ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T21:03:17+08:00 ] ::1 /ykj/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T21:03:20+08:00 ] ::1 /ykj/index.php/Admin/Link/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ykj_link` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ykj_link` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ykj_link` ORDER BY id LIMIT 0,4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\65e4f6df08c62e8a208c27167d615170.php 第 115 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\65e4f6df08c62e8a208c27167d615170.php 第 115 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\65e4f6df08c62e8a208c27167d615170.php 第 115 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\65e4f6df08c62e8a208c27167d615170.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T21:03:59+08:00 ] ::1 /ykj/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T21:04:40+08:00 ] ::1 /ykj/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T21:04:43+08:00 ] ::1 /ykj/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T21:04:43+08:00 ] ::1 /ykj/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T21:04:53+08:00 ] ::1 /ykj/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ykj_admin` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate F:\AppServ\www\ykj\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\AppServ\www\ykj\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `ykj_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013001s ]
+
+[ 2017-04-12T21:04:54+08:00 ] ::1 /ykj/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T21:04:59+08:00 ] ::1 /ykj/index.php/Admin/Link/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ykj_link` [ RunTime:0.0460s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ykj_link` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ykj_link` ORDER BY id LIMIT 0,4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\65e4f6df08c62e8a208c27167d615170.php 第 115 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\65e4f6df08c62e8a208c27167d615170.php 第 115 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\65e4f6df08c62e8a208c27167d615170.php 第 115 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\65e4f6df08c62e8a208c27167d615170.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-04-12T21:05:19+08:00 ] ::1 /ykj/index.php/Admin/Link/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ykj_link` [ RunTime:0.0270s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-12T21:06:18+08:00 ] ::1 /ykj/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-12T21:09:37+08:00 ] ::1 /ykj/index.php/Admin/Link/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' F:\AppServ\www\ykj\Application\Admin\Conf\config.php 第 3 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ykj_link` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ykj_link` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ykj_link` ORDER BY id LIMIT 0,4   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\65e4f6df08c62e8a208c27167d615170.php 第 115 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\65e4f6df08c62e8a208c27167d615170.php 第 115 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\65e4f6df08c62e8a208c27167d615170.php 第 115 行.
+NOTIC: [8] Undefined index: sort F:\AppServ\www\ykj\Application\Runtime\Cache\Admin\65e4f6df08c62e8a208c27167d615170.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
